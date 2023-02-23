@@ -1,24 +1,27 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  align-items: flex-start;
 }
 
 .left-nav {
 
   > ul {
-    > li {
-      
+    > li:hover {
+      background-color: $lightest-gray;
     }
   }
 
   span {
-    
+    margin: 5px;
   }
 }
 
@@ -34,7 +37,7 @@
   }
   
   i {
-    
+    font-size: 32px;
   }
 }
 

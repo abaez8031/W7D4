@@ -28,8 +28,20 @@ body {
 // }
 
 .right-btns {
-  background-color: #6288a5;
+  background-color: #6288A5;
   margin: 0px 7px 0px 3px;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+  border: 1px solid rgb(50, 104, 145);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: rgb(255, 255, 255)
 }
 
 // button:hover {
@@ -56,4 +68,8 @@ hr {
 .hr-top {
   height: 2px;
   margin-bottom: 1px;
+}
+
+a:hover {
+  background-color: $lightest-gray;
 }
